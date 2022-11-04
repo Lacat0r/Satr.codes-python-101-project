@@ -1,0 +1,50 @@
+name = input('What is your name?:')
+
+tpnumber = input("Welcome " +name+ ",can you please enter the telephone directory number or the name of the person?")
+
+if tpnumber == "1111111111":
+    print('This number belongs to Amal')
+elif tpnumber == "2222222222":
+    print('This number belongs to Mohammed')
+elif tpnumber == "3333333333":
+    print("This number belongs to Khadijah")
+elif tpnumber == "4444444444":
+    print('This number belongs to Abdullah')
+elif tpnumber == "5555555555":
+    print('This number belongs to Rawan')
+elif tpnumber == "6666666666":
+    print('This number belongs to Faisal')
+elif tpnumber == "7777777777":
+    print('This number belongs to Layla')
+elif tpnumber == "Amal":
+    print("1111111111 is the telephone directory number of Amal")
+elif tpnumber == "amal":
+    print("1111111111 is the telephone directory number of Amal")
+elif tpnumber == "Mohammed":
+    print("2222222222 is the telephone directory number of Mohammed")
+elif tpnumber == "mohammed":
+    print("2222222222 is the telephone directory number of Mohammed")
+elif tpnumber == "Khadijah":
+    print("3333333333 is the telephone directory number of Khadijah")
+elif tpnumber == "khadijah":
+    print("3333333333 is the telephone directory number of Khadijah")
+elif tpnumber == "Abdullah":
+    print("4444444444 is the telephone directory number of Abdullah")
+elif tpnumber == "abdullah":
+    print("4444444444 is the telephone directory number of Abdullah")
+elif tpnumber == "Rawan":
+    print("5555555555 is the telephone directory number of Rawan")
+elif tpnumber == "rawan":
+else:
+    print('Sorry the university you mentioned is not supported on our website but you can contact me through twiiter @MazenAlasmary')
+    print("5555555555 is the telephone directory number of Rawan")
+elif tpnumber == "Faisal":
+    print("6666666666 is the telephone directory number of Faisal")
+elif tpnumber == "faisal":
+    print("6666666666 is the telephone directory number of Faisal")
+elif tpnumber == "Layla":
+    print("7777777777 is the telephone directory number of Layla")
+elif tpnumber == "layla":
+    print("7777777777 is the telephone directory number of Layla")
+else:
+    print('Sorry, This number is not found')
